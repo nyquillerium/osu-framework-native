@@ -1,5 +1,5 @@
 
-Microsoft Visual Studio Solution File, Format Version 12.00
+Microsoft Visual Studio Solution File, Format Version 15.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "osu-framework-native", "osu-framework-native\osu-framework-native.csproj", "{90792A8D-7285-4234-9423-E176AF163DDB}"
 EndProject
