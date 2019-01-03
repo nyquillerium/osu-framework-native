@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/qingxunzhao/Documents/GitHub/osu-framework/osu.Framework.Native/osu.Framework.Native.csproj",
-      "projectName": "osu.Framework.Native",
-      "projectPath": "/Users/qingxunzhao/Documents/GitHub/osu-framework/osu.Framework.Native/osu.Framework.Native.csproj",
+      "projectUniqueName": "/Users/qingxunzhao/Documents/GitHub/osu-framework-native/osu-framework-native.csproj",
+      "projectName": "osu-framework-native",
+      "projectPath": "/Users/qingxunzhao/Documents/GitHub/osu-framework-native/osu-framework-native.csproj",
       "packagesPath": "/Users/qingxunzhao/.nuget/packages/",
-      "outputPath": "/Users/qingxunzhao/Documents/GitHub/osu-framework/osu.Framework.Native/obj/",
+      "outputPath": "/Users/qingxunzhao/Documents/GitHub/osu-framework-native/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
