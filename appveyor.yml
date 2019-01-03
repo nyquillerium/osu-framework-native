@@ -15,4 +15,4 @@ environment:
 after_build:
   - cmd: dotnet pack osu-framework-native /p:Version=0.0.%APPVEYOR_BUILD_VERSION%
 artifacts:
-  - path: osu-framework-native/bin/Debug/*.nupkg
+  - path: osu-framework-native/bin/Any CPU/Release/*.nupkg
