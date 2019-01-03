@@ -1,0 +1,17 @@
+version:
+1.1.0.{build}.{branch}
+
+configuration:
+Release
+
+platform:
+Any CPU
+
+before_build:
+- cmd: set ASPNETCORE_ENVIRONMENT=Production
+
+environment: matrix:
+- APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
+
+build: project:
+osu-framework-native.sln
