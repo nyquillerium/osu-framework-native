@@ -11,3 +11,8 @@ before_build:
 environment:
   matrix:
     - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
+
+after_build:
+  - cmd: dotnet pack osu-framework-native /p:Version=0.0.%APPVEYOR_BUILD_VERSION%
+artifacts:
+  - path: osu-framework-native/bin/Debug/*.nupkg
