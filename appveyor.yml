@@ -7,5 +7,5 @@ platform: Any CPU
 before_build:
 - cmd: set ASPNETCORE_ENVIRONMENT=Production
 
-environment: matrix:
+environment:
 - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
