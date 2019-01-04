@@ -12,6 +12,17 @@
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <NativeLibs Include="$(MSBuildThisFileDirectory)*\*.dll*" />
+    <NativeLibs Include="$(MSBuildThisFileDirectory)*.so" />
+    <NativeLibs Include="$(MSBuildThisFileDirectory)*.dylib" />
+    <None Include="@(NativeLibs)">
+      <Pack>true</Pack>
+      <PackageCopyToOutput>true</PackageCopyToOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
   <PropertyGroup>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
